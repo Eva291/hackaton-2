@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="overmij.html">Over mij</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h2 class="title">Contact</h2>
+      <p>
+        Vragen of opmerkingen? Vul hier je gegevens in en ik neem contact met je
+        op.
+      </p>
+
+      <form>
+        <div>
+          <label for="naam">Naam</label>
+          <br />
+          <input type="text" id="naam" />
+        </div>
+        <div>
+          <label for="leeftijd">Leeftijd</label>
+          <br />
+          <input type="age" min="1" max="150" id="leeftijd" />
+        </div>
+        <div>
+          <label>Geslacht</label>
+          <br />
+          <input type="radio" name="geslacht" id="man" />
+          <label for="man" class="geslacht">Man</label>
+          <input type="radio" name="geslacht" id="vrouw" />
+          <label for="vrouw" class="geslacht">Vrouw</label>
+          <input type="radio" name="geslacht" id="anders" />
+          <label for="anders" class="geslacht">Anders</label>
+        </div>
+        <div>
+          <label for="email">Emailadres</label>
+          <br />
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="nmr">Telefoonnummer</label>
+          <br />
+          <input type="tel" id="nmr" />
+        </div>
+        <div>
+          <label for="vraag">Vraag/opmerking</label>
+          <br />
+          <textarea rows="7" cols="25" id="vraag"></textarea>
+        </div>
+        <div>
+          <button type="submit">Verzend</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2022 - Life of Koda</p>
+    </footer>
+  </body>
+</html>
